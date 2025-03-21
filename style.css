@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+}
+
+#input{
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+}
+#number{
+    position: relative;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    border: black solid 3px;
+    border-radius: 7%;
+
+}
+
+#button{
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 7%;
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align:center;
+
+}
+
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+    background-color: rgb(21, 21, 232);
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+    background-color: rgb(234, 32, 203);
+    height: 50px;
+    width:100px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+#box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
